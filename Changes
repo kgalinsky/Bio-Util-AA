@@ -1,4 +1,8 @@
-Revision history for JCVI-AATools
+Revision history for Bio-Tiny-Util-AA
+
+0.1.7 May 10 2011
+  - Namespace change
+  - Migrated to git
 
 0.1.6 Apr 14 2009
   - Put use version on same line as $VERSION declared

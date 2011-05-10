@@ -1,17 +1,10 @@
-# JCVI::AATools
-#
-# $Author$
-# $Date$
-# $Revision$
-# $HeadURL$
-
 =head1 NAME
 
-JCVI::AATools - JCVI Basic Amino Acid tools
+Bio::Tiny::Util::AA - Basic Amino Acid utilities
 
 =head1 SYNOPSES
 
- use JCVI::AATools qw(:all)
+ use Bio::Tiny::Util::AA qw(:all)
 
 =head1 DESCRIPTION
 
@@ -20,7 +13,7 @@ are handy when working with Amino Acids.
 
 =cut
 
-package JCVI::AATools;
+package Bio::Tiny::Util::AA;
 
 use strict;
 use warnings;
@@ -143,6 +136,6 @@ our $ambig_fail  = qr/[^$ambigs]/i;
 
 =head1 AUTHOR
 
-Kevin Galinsky, <kgalinsk@jcvi.org>
+Kevin Galinsky, <kgalinsky plus cpan at gmail dot com>
 
 =cut
