@@ -3,7 +3,7 @@
 use Test::More tests => 1;
 
 BEGIN {
-	use_ok( 'Bio::Tiny::Util::AA' );
+	use_ok( 'Bio::Util::AA' );
 }
 
-diag( "Testing Bio::Tiny::Util::AA $Bio::Tiny::Util::AA::VERSION, Perl $], $^X" );
+diag( "Testing Bio::Util::AA $Bio::Util::AA::VERSION, Perl $], $^X" );

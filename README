@@ -1,4 +1,4 @@
-Bio::Tiny::Util::AA provides a set of functions and predefined variables which
+Bio::Util::AA provides a set of functions and predefined variables which
 are handy when working with Amino Acids.
 
 INSTALLATION
@@ -15,25 +15,27 @@ SUPPORT AND DOCUMENTATION
 
 After installing, you can find documentation for this module with the perldoc command.
 
-    perldoc Bio::Tiny::Util::AA
+    perldoc Bio::Util::AA
 
 You can also look for information at:
 
     Search CPAN
-        http://search.cpan.org/dist/Bio-Tiny-Util-AA
+        http://search.cpan.org/dist/Bio-Util-AA
 
     CPAN Request Tracker:
-        http://rt.cpan.org/NoAuth/Bugs.html?Dist=Bio-Tiny-Util-AA
+        http://rt.cpan.org/NoAuth/Bugs.html?Dist=Bio-Util-AA
 
     AnnoCPAN, annotated CPAN documentation:
-        http://annocpan.org/dist/Bio-Tiny-Util-AA
+        http://annocpan.org/dist/Bio-Util-AA
 
     CPAN Ratings:
-        http://cpanratings.perl.org/d/Bio-Tiny-Util-AA
+        http://cpanratings.perl.org/d/Bio-Util-AA
 
 COPYRIGHT AND LICENCE
 
-Copyright (C) 2008 Kevin Galinsky
+Copyright (c) 2010-2011, Broad Institute.
+
+Copyright (c) 2008-2009, J. Craig Venter Institute.
 
 This program is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.

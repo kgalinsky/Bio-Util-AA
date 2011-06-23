@@ -1,10 +1,10 @@
 =head1 NAME
 
-Bio::Tiny::Util::AA - Basic Amino Acid utilities
+Bio::Util::AA - Basic Amino Acid utilities
 
 =head1 SYNOPSES
 
- use Bio::Tiny::Util::AA qw(:all)
+ use Bio::Util::AA qw(:all)
 
 =head1 DESCRIPTION
 
@@ -13,7 +13,7 @@ are handy when working with Amino Acids.
 
 =cut
 
-package Bio::Tiny::Util::AA;
+package Bio::Util::AA;
 
 use strict;
 use warnings;
@@ -136,6 +136,15 @@ our $ambig_fail  = qr/[^$ambigs]/i;
 
 =head1 AUTHOR
 
-Kevin Galinsky, <kgalinsky plus cpan at gmail dot com>
+Kevin Galinsky, <first initial last name plus cpan at gmail dot com>
+
+=head1 COPYRIGHT AND LICENSE
+
+Copyright (c) 2010-2011, Broad Institute.
+
+Copyright (c) 2008-2009, J. Craig Venter Institute.
+
+This program is free software; you can redistribute it and/or modify it
+under the same terms as Perl itself.
 
 =cut
